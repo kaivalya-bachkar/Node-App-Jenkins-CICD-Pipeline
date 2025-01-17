@@ -1,12 +1,13 @@
 {
-  "name": "nodejs-example",
-  "version": "1.0.0",
-  "description": "A simple Node.js example",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.17.1"
-  }
-}
+    "name": "node-app",
+    "description": "hello jenkins test app",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+       "express": "3.12.0"
+    },
+    "devDependencies": {
+       "mocha": "10.2.0",
+       "supertest": "6.3.3"
+    }
+   }
