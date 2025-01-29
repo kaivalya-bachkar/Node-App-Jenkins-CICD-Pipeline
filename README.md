@@ -20,6 +20,7 @@ To execute this Jenkins pipeline script, follow these steps:
    - Scroll down to the Pipeline section.
    - Set Definition to Pipeline script.
    - Copy and paste the entire pipeline script provided into the Jenkinsfile.
+   - Or Choose the pipeline script from SCM and in SCM select the Git option and then paste the git repository link and Save it.  
 
 4. Configure Webhook on GitHub:
    - Navigate to your repository on GitHub → Click on the Settings tab.
